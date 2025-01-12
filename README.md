@@ -13,3 +13,12 @@ Project can be deployed in a GCP environment.
  
 ## Architecture
 
+![architecture](https://github.com/cesarAndramart/uber_etl/blob/main/ETL-2.png)
+
+## Dataset
+We ingest the yellow trip data, downloading it from: 
+
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+Data dictionary is available here:
+https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
