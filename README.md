@@ -1,4 +1,7 @@
 # Taxi data ETL
+Based on:
+https://github.com/darshilparmar/uber-data-engineering-mage-project
+
 Simple ETL using airflow and pyspark in GCP environment, we create a simple data model to allow the data analysts to build BI reports.
 Project can be deployed in a GCP environment.
 ## Technologies used.
@@ -22,3 +25,9 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 Data dictionary is available here:
 https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+
+## Data model
+
+We use a star model approach to model the data
+
+![data model](https://github.com/cesarAndramart/uber_etl/blob/main/datamodel.png)
