@@ -36,4 +36,4 @@ We use a star model approach to model the data
 - transform.py - We create the dimensions and fact table using this script
 - extract.py - We load data into data lake using this script
 - airflow_extract.py, airflow_transform.py - DAG files to execute the scripts.
-- fact_table.sql - SQL query used to create the final fact table view
+- fact_table.sql - SQL query used to create the final fact table view using the dimension tables.
