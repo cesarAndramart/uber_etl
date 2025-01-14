@@ -31,3 +31,9 @@ https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow
 We use a star model approach to model the data
 
 ![data model](https://github.com/cesarAndramart/uber_etl/blob/main/datamodel.png)
+
+## Scripts
+- transform.py - We create the dimensions and fact table using this script
+- extract.py - We load data into data lake using this script
+- airflow_extract.py, airflow_transform.py - DAG files to execute the scripts.
+- fact_table.sql - SQL query used to create the final fact table view
